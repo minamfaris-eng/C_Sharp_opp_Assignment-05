@@ -6,29 +6,26 @@ A C# console application developed for **Route IT Academy (C# OOP - Session 06)*
 
 ## 📁 Project Structure
 
+```text
 Assignment-5/
-│
 ├── Enums/
-│   └── TicketType.cs          # Enumeration for ticket classification (Standard, VIP, IMAX)
-│
+│   └── TicketType.cs
 ├── Interface/
-│   ├── IBookable.cs           # Interface contract for booking/cancellation logic
-│   └── IPrintable.cs          # Interface contract for formatted object printing
-│
+│   ├── IBookable.cs
+│   └── IPrintable.cs
 ├── Models/
-│   ├── Cinema.cs              # Aggregates cinema operations, screens, and seating
-│   ├── Ticket.cs              # Base abstract/virtual class for cinema tickets
-│   ├── Projector.cs           # Hardware model for theater projector management
-│   ├── SeatLocation.cs        # Struct/Model defining row and column seating
-│   ├── BookingHelper.cs       # Utility/service class managing booking workflows
-│   │
-│   └── TicketsTypes/          # Derived ticket implementations (Inheritance)
-│       ├── StandardTicket.cs  # Standard seat booking logic
-│       ├── VIPTicket.cs       # VIP booking with premium features/lounge access
-│       └── IMAXTicket.cs      # IMAX experience ticket implementation
-│
-├── Program.cs                 # Main entry point and demo execution
-└── Assignment5.csproj         # Project configuration file
+│   ├── TicketsTypes/
+│   │   ├── IMAXTicket.cs
+│   │   ├── StandardTicket.cs
+│   │   └── VIPTicket.cs
+│   ├── BookingHelper.cs
+│   ├── Cinema.cs
+│   ├── Projector.cs
+│   ├── SeatLocation.cs
+│   └── Ticket.cs
+├── Assignment5.csproj
+└── Program.cs
+```
 
 
 ---
